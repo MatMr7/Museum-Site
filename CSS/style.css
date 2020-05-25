@@ -1,0 +1,218 @@
+body{
+    background: #f4f2ec url(../images/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode" ,"Arial",sans-serif  ; 
+}
+#container{
+    width: 1080px;
+    margin: 0 auto;
+
+
+}
+
+
+/* 
+Logo
+ -----------------*/
+#logo h1{
+    float : left;
+}
+
+ #logo a{
+    width: 248px;
+    height: 21px;
+    text-indent: -1000000px;
+    display: block;
+    background: url(../images/logo.png) no-repeat;
+ }
+ #logo a:link, a:active, a:visited { 
+
+    color: #af670a;
+    text-decoration: none;
+}
+
+
+ /* Barra de navegação
+ -------------------- */
+ header{
+     padding: 15 0;
+     height: 55px;;
+ }
+
+ nav ul {
+     list-style : none;
+     margin:20px;
+     float: right;
+
+ }
+ nav ul li{
+     float : left;
+ }
+
+ nav ul li a{
+     display:block;
+     margin-right: 25px;
+     padding-bottom: 3px;
+     text-transform: uppercase;
+     font-size: 15px;
+ }
+
+ nav  ul li a:hover{
+     border-bottom: 1px solid #535858;
+
+ }
+ /* Formatação área principal
+ ---------------------------- */
+
+ #conteudo{
+     width: 720px;
+     float:left;
+
+ }
+
+ aside{
+     float:right;
+     width: 350px;
+     background: #ebe7dd;
+     padding-bottom: 50px;;
+ }
+
+ section#visita{
+     background: #cdc8b1;
+     padding: 10px 27px 27px 27px;
+     margin-top:10px;
+     
+ }
+
+h4{
+     color: #86521a;
+     text-transform:  uppercase;
+     padding-bottom: 3px;
+     margin-bottom: 0;
+     text-align: center;
+
+ }
+
+ /* 
+ Formularios
+ ------------------------ */
+ input{
+     height: 20px;
+     width: 80px;
+     background: #FFF;
+     border: none;
+     font-size: 1em;
+
+ }
+
+ input.campo{
+     border: 1px solid #ada484;
+ }
+
+ input.botao{
+     background: #9b9271;
+     color: white;
+     width: 99%;
+     height: 40px;
+     size:1.2em;
+     margin-top: 5px;
+     text-transform: uppercase;
+ }
+
+ fieldset{
+     border: none;
+
+ }
+ legend{
+     display: none;
+ }
+
+ /* 
+ Formatação galeria
+ ------------------------ */
+ section#galeria a{
+     display: block;
+     background: url(../images/fundo-foto.png) no-repeat;
+     float : left;
+     padding : 18px 15px 15px 17px;
+     
+     
+ }
+
+ section#galeria {
+     margin-left : 50px;
+ }
+ section#galeria h4{
+     margin-right: 30px;
+ }
+ /* 
+ Formatação area postagens
+ -------------------------------- */
+ article#video{
+     float:left;
+     margin-top: 10px;;
+ }
+
+ article#mapa{
+     float:right;
+     margin-right: 35px;
+     margin-top: 10px;;
+ }
+
+ article#exposicoes{
+     float:left;
+     margin-top: 10px;;
+ }
+
+ #conteudo h3{
+     color: green;
+     margin-bottom: 15px;
+ }
+ article#exposicoes ul {
+     list-style: none;
+ }
+ article#exposicoes li {
+    padding-bottom: 5px;
+    margin-left: -40px;
+}
+
+
+ article#exposicoes a:link,a:active, a:visited{
+     font-size: 1.2em;
+     color:  #86521a;
+     padding-bottom: 10px;
+     text-decoration: none;
+ }
+
+ article#exposicoes ul li a:hover{
+    color: black;
+ }
+
+ article#hist-homePage{
+     float: right;
+     width: 250px;
+     padding-top: 10px;
+     margin-right: 90px;
+ }
+
+ /* formatação do footer
+ ------------------------------ */
+footer{
+    margin-top: 10px;
+    padding:20px 0 30px 0;
+    text-align: center;
+    background: url(../images/fundo-rodape.png) no-repeat center top;
+}
+
+footer ul{
+    margin-left: 300px;
+    list-style: none;
+}
+
+footer li{
+    text-align: center;
+    float: left;
+}
+footer a{
+    text-decoration: none;
+    padding: 10px;
+}

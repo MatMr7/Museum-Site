@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Museu Nacional</title>
+    <meta charset="utf-8" />
+
+    <!--   Normalize CSS  -->
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" typer="text/css" href="CSS/style.css" />
+
+    <!-- Html Shiv -->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Inicio container -->
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+
+            </div>
+
+            <nav>
+
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">Exposições</a></li>
+                    <li> <a href="">Pesquisa</a></li>
+                    <li> <a href="">Acervo</a></li>
+                    <li> <a href="">Vídeos</a></li>
+                    <li> <a href="">Fotos</a></li>
+                    <li> <a href="">Contato</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <!-- Início area principal -->
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="images/museu.png" />
+                </section>
+
+                <article id="video">
+                    <h3>Video: conheça o museu</h3>
+                    <iframe width="310" height="170" src="https://www.youtube.com/embed/Beux4Wygk0g" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+
+                </article>
+
+                <article id="mapa">
+                    <h3>Encontre o Museu</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d42790.85792942321!2d-43.19000038994895!3d-22.93029544258639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMuseu%20Nacional%20da%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1590357806279!5m2!1spt-BR!2sbr"
+                        width="310" height="170" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </article>
+
+                <article id = "hist-homePage">
+                    <h3>200 anos de história</h3>
+                    <p>
+                        O Museu Nacional é a instituição de história natural mais antiga do Brasil fundada em junho de 1818 pelo rei D. João VI de Portugal, Brasil, e Algarve. Originalmente era chamado de Museu Real pois quando a família real migrou para o Brasil,
+                </article>
+
+                <article id="exposicoes">
+                    <h3>Exposições</h3>
+                    <ul>
+                        <li>
+                            <a href="#"> Os assustatores de insetos</a>
+                        </li>
+
+                        <li>
+                            <a href="#">O cranio de Luiza, a mulher mais antiga do brasil</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Preguiça gigante</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Plantas do Brasil Central</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Teresa Cristina: A imperatriz Arqueóloga</a>
+                        </li>
+                    </ul>
+
+                </article>
+
+                </section>
+            </div>
+
+
+
+            <section id="postagens">
+
+
+                <aside>
+
+                    <section id="depoimento">
+
+                        <img src="images/depoimento.png" />
+
+                    </section>
+
+                    <section id="visita">
+
+                        <h4>Faça uma visita</h4>
+                        <br>
+                        <form>
+                            <fieldset>
+                                <legend>Selecione uma data</legend>
+
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value=" dd/mm/aaaa">
+
+                                <label for="qtd">Qtd pessoas</label>
+                                <input style="width: 30px;" class="campo" type="text" id="qtd" value=" 1">
+
+                            </fieldset>
+
+                            <input class="botao" type="submit" name="" value="verificar disponibilidade" />
+
+                        </form>
+
+                    </section>
+
+
+                    <section id="galeria">
+
+                        <h4>Galeria de fotos</h4>
+                        <br>
+
+                        <a href="">
+                            <img src="images/imagem1.jpg" height="93px" width="93px" />
+                        </a>
+
+                        <a href="">
+                            <img src="images/imagem2.jpg" height="93px" width="93px" />
+                        </a>
+
+                        <a href="">
+                            <img src="images/imagem3.jpg" height="93px" width="93px" />
+                        </a>
+
+                        <a href="">
+                            <img src="images/imagem4.jpg" height="93px" width="93px" />
+                        </a>
+
+                    </section>
+
+                </aside>
+                <div style="clear: both;"></div>
+
+                <footer>
+                    <p>
+                        <ul>
+                            <li> <a href="">Home</a></li>
+                            <li> <a href="">Exposições</a></li>
+                            <li> <a href="">Pesquisa</a></li>
+                            <li> <a href="">Acervo</a></li>
+                            <li> <a href="">Vídeos</a></li>
+                            <li> <a href="">Fotos</a></li>
+                            <li> <a href="">Contato</a></li>
+                        </ul>
+                    </p>
+                    <br>
+                    <p>
+                        2020 <a href="">Museu Nacional</a> - Todos os direitos reservados &copy
+                    </p>
+                    
+                </footer>
+
+        </div>
+        <!-- Fim  area principal -->
+
+
+
+
+    </div>
+    <!-- Fim container -->
+
+
+</body>
+
+
+
+</html>
